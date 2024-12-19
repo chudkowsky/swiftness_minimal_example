@@ -1,0 +1,9 @@
+[package]
+name = "swiftness_minimal_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swiftness_proof_parser = "0.1.0"
+starknet-crypto = "0.7.1"
+starknet-types-core = { version = "0.1.6", features = [ "arbitrary" ] }
